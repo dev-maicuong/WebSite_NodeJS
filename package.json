@@ -1,0 +1,26 @@
+{
+  "name": "website_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangmaicuong99/WebSite_NodeJS.git"
+  },
+  "author": "CuongHoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangmaicuong99/WebSite_NodeJS/issues"
+  },
+  "homepage": "https://github.com/hoangmaicuong99/WebSite_NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
